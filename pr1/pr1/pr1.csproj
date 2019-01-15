@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13108B4C-1E0D-4F65-A1E7-52A8F876EBCA}</ProjectGuid>
+    <ProjectGuid>{524FDA5F-81E9-49BD-8EC7-AB73016AF641}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lat_1</RootNamespace>
-    <AssemblyName>Lat_1</AssemblyName>
+    <RootNamespace>pr1</RootNamespace>
+    <AssemblyName>pr1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
