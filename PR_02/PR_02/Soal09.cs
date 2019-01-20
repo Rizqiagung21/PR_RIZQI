@@ -15,7 +15,7 @@ namespace PR_02
             JumlahKolom = (n * b) - (b - 1);
             Array2d = new string[JumlahBaris, JumlahKolom];
             isiArray(b);
-            FunctionBase.CetakArray();
+            FunctionBase.CetakArray(Array2d);
         }
         private void isiArray(int x)
         {

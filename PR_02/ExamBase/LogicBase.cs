@@ -15,13 +15,13 @@ namespace ExamBase
     }
     public class FunctionBase
     {
-        public static void CetakArray()
+        public static void CetakArray(String[,] Array2d)
         {
-            for (int b = 0; b < LogicBase.Array2d.GetLength(0); b++)
+            for (int b = 0; b < Array2d.GetLength(0); b++)
             {
-                for (int k = 0; k < LogicBase.Array2d.GetLength(1); k++)
+                for (int k = 0; k < Array2d.GetLength(1); k++)
                 {
-                    Console.Write("{0}\t", LogicBase.Array2d[b, k]);
+                    Console.Write("{0}\t", Array2d[b, k]);
                 }
                 Console.WriteLine("\n");
             }
