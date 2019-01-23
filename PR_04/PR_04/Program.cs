@@ -13,9 +13,9 @@ namespace PR_04
             string y = "Y";
             while (y.ToLower() == "y")
             {
-                Console.Write("Masukan N");
+                Console.Write("Masukan N ");
                 int n = int.Parse(Console.ReadLine());
-                Console.Write("Pilih Soal");
+                Console.WriteLine("Pilih Soal");
                 Console.WriteLine("1.  PR No 01");
                 Console.WriteLine("2.  PR No 02");
                 Console.WriteLine("10. Soal no 10");
