@@ -11,7 +11,7 @@ namespace PR_04
     {
         public PR_01(int n)
         {
-            JumlahBaris = 2 * n + (2 + n);
+            JumlahBaris = 2 * n + (2 * n-1);
             JumlahKolom = JumlahBaris;
             Console.WriteLine(JumlahKolom);
             Array2d = new string[JumlahBaris, JumlahKolom];
@@ -24,7 +24,7 @@ namespace PR_04
             for (int b = 0; b < n; b++)
             {
                 int sKolom = n;
-                int eKolom = sKolom + n + 1;
+                int eKolom = sKolom + 2*n - 1;
 
                 for (int k = sKolom; k <= eKolom; k++)
                 {
